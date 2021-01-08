@@ -27,9 +27,7 @@ export default {
                             );
                         });
                     } else {
-                        appliedBreakpoints.push(`
-                            ${options.classNames.prepend}${options.classNames.sizes[applicableCQ]}
-                        `);
+                        appliedBreakpoints.push(`${options.classNames.prepend}${options.classNames.sizes[applicableCQ]}`);
                     }
                 }
             });
